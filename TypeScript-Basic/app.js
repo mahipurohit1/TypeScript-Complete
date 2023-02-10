@@ -1,11 +1,12 @@
-var userInput;
-var userName;
+"use strict";
+let userInput;
+let userName;
 userInput = 4;
 userInput = "max";
 if (typeof userInput === "string") {
     userName = userInput;
 }
 function generateError(message, code) {
-    throw { message: message, code: code };
+    throw { message, code };
 }
-generateError("error occur ", 500);
+generateError("error occurred ", 500);
