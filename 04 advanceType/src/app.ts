@@ -45,7 +45,7 @@ moveAnimal({ type: "bird", flyingSpeed: 10 });
 // const userInput = <HTMLInputElement>document.getElementById("user-input")! ;
 const userInput = document.getElementById("user-input")! as HTMLInputElement;
 
-userInput.value = "mahipal";
+userInput.value = "mahipal singh rajpurohit";
 interface ErrorContainer {
   [props: string]: string;
 }
